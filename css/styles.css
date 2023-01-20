@@ -1,0 +1,143 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather", serif;
+  color: #40514e;
+}
+
+h1 {
+  color: #91d8e4;
+  font-size: 6rem; /* root em (rem) does not get affected by body size font */
+  margin: 50px auto 0 auto;
+  font-family: "Sacramento", cursive;
+}
+
+p {
+  line-height: 2;
+}
+
+a {
+  font-family: "Montserrat", sans-serif;
+  padding: 20px;
+  text-decoration: none;
+  color: #82aae3;
+}
+
+a:hover {
+  color: #91d8e4;
+}
+
+h2 {
+  color: #91d8e4;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+
+h3 {
+  color: #bfeaf5;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+}
+
+hr {
+  width: 10%;
+  border-top: 10px;
+  border-style: dotted none none none;
+  border-color: #eafdfc;
+  padding: 0 0 5% 0;
+}
+
+.bean {
+  text-decoration: underline;
+}
+
+.intro-text {
+  width: 50%;
+  margin: auto;
+}
+
+.contact-me {
+  padding: 0 0 150px 0;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.btn {
+  border-radius: 50px;
+  font-family: "Montserrat", serif;
+  color: #eafdfc;
+  font-size: 20px;
+  background: #82aae3;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  position: relative;
+  top: 25px;
+}
+
+.top-container {
+  background-color: #82aae3;
+  position: relative;
+  padding-top: 100px;
+  width: 100%;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto; /* circle margin, start at top and work clockwise */
+  text-align: left;
+}
+
+/* .triathlon-text {
+  clear: left;  clear is the opposite of float 
+}
+
+/* .dancing-text {
+  clear: right;
+}  */
+
+.middle-container {
+  padding-top: 50px;
+}
+
+.profile {
+  padding: 0 0 5% 0;
+}
+
+.bottom-container {
+  padding: 50px 0 20px 0;
+  background-color: #bfeaf5;
+}
+
+.copyright {
+  color: #eaf6f6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 200px;
+  bottom: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 225px;
+  top: 50px;
+}
+
+.triathlon-image {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.dancing-image {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
